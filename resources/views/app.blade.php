@@ -41,6 +41,9 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
+
+
+    HAHAHHA
         @inertia
     </body>
 </html>

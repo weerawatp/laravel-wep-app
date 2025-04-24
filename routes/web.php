@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Config;
 use Inertia\Inertia;
+
+
+//  echo  config('app.name');
+//  echo Config::get('app.name');
 
 Route::get('/', function () {
     return Inertia::render('welcome');

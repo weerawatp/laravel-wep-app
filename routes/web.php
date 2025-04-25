@@ -6,7 +6,7 @@ use Inertia\Inertia;
 
 
 //  echo  config('app.name');
-//  echo Config::get('app.name');
+//   echo Config::get('app.name');
 
 Route::get('/', function () {
     return Inertia::render('welcome');
